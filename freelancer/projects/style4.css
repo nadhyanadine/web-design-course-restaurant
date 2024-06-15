@@ -1,0 +1,154 @@
+/* General styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #F8F8F8;
+    color: #333;
+    background-color: black;
+}
+
+header {
+    background-color: #e9be21;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #00ff73;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #00ff73;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #dba417;
+}
+
+
+main {
+    padding: 80px 0;
+}
+
+.project-details {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-details h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.project-details p.price {
+    font-size: 24px;
+    color: #007bff;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.details h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.details li {
+    margin-bottom: 5px;
+}
+
+.bid-form {
+    margin-top: 20px;
+}
+
+.bid-form h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bid-form p {
+    margin-bottom: 15px;
+}
+
+.bid-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.bid-form input[type="number"],
+.bid-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.bid-form button {
+    background-color: #00ff73;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bid-form button:hover {
+    background-color: #00ff73;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}

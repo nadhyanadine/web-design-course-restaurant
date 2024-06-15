@@ -1,0 +1,119 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .user-info {
+    text-align: right;
+  }
+  
+  .username {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .logout {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .sidebar {
+    float: left;
+    width: 200px;
+    background-color: #f0f0f0;
+  }
+  header {
+    background-color: #dba417;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #00ff73;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #00ff73;
+}
+
+  .content {
+    margin-left: 220px;
+  }
+  
+  .tasklist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tasklist-name {
+    font-size: 1.2rem;
+  }
+  
+  .tasklist-content {
+    margin-top: 20px;
+  }
+  
+  .new-task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .new-task input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .new-task button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tasks {
+  }
+  

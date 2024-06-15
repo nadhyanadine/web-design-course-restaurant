@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f2a900;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.sell-button {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.user-info span {
+    margin-left: 10px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.help-banner {
+    text-align: center;
+    background-color: #f2a900;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.help-banner h1 {
+    margin: 0;
+}
+
+.search-bar {
+    margin: 20px 0;
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.get-help-button {
+    padding: 10px 20px;
+    background-color: #cccccc;
+    border: none;
+    cursor: pointer;
+}
+
+.suggested-articles {
+    display: flex;
+    justify-content: center;
+}
+
+.suggested-articles a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.help-center {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.help-center h2 {
+    color: #f2a900;
+}
+
+.tabs {
+    display: flex;
+    margin: 20px 0;
+}
+
+.tab-button {
+    background-color: #f2a900;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tab-button.active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tab-content ul li {
+    margin: 10px 0;
+}
+
+.tab-content ul li a {
+    color: #f2a900;
+    text-decoration: none;
+}
+
+.contact-us {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+}

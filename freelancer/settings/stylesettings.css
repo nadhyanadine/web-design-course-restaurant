@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Set background color to black */
+    color: #ffffff; /* Set text color to white */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333333; /* Adjusted to a dark color for container background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #dba417; /* Set title color */
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #444444; /* Adjusted border color to match dark theme */
+}
+
+td:first-child {
+    width: 20%;
+    font-weight: bold;
+    color: #ffffff; /* Set text color */
+}
+
+input[type="text"],
+input[type="url"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #555555; /* Adjusted border color */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #222222; /* Adjusted input background color */
+    color: #ffffff; /* Set input text color */
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #ffffff; /* Set button text color */
+}
+
+.btn-update {
+    background-color: #dba417;
+}
+
+.btn-update:hover {
+    background-color: #dba417;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    td:first-child {
+        width: 30%;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

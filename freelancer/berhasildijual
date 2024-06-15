@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Karya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #161717;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            margin: 0;
+            margin-left: 300px; /* Margin untuk memberikan jarak antara logo dan teks */
+            justify-content: center;
+        }
+        .logo {
+            width: 200px; /* Lebar logo */
+            height: 65px; /* Tinggi logo */
+            margin-right: 350px; /* Margin kanan untuk memberikan jarak antara logo dan teks */
+            justify-content: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container {
+            flex: 1;
+            background-image: url("image/uikarya.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            margin-right: 20px;
+        }
+        .details-container {
+            flex: 1;
+            max-width: 600px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        .details {
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #495057;
+        }
+        p {
+            margin: 0;
+            margin-bottom: 10px;
+            color: #212529;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="browse_job.html"> <!-- Ganti 'halaman_lain.html' dengan URL atau path ke halaman yang Anda inginkan -->
+            <img src="image/logo1.png" alt="Logo" class="logo"> <!-- Ganti 'image/logo1.png' dengan path menuju gambar logo Anda -->
+        </a>
+        <h1>Penjualan karya</h1>
+    </header>
+    <div class="container">
+        <div class="image-container"></div>
+        <div class="details-container">
+            <div class="details">
+                <h2>Detail Karya</h2>
+                <label for="judul">Judul Karya:</label>
+                <p id="judul" class="bold">Desain UI/UX Modern</p>
+
+                <label for="deskripsi">Deskripsi Karya:</label>
+                <p id="deskripsi">Desain UI/UX modern dengan tata letak yang bersih dan responsif. Cocok untuk berbagai platform digital.</p>
+
+                <label for="jenis">Jenis Karya:</label>
+                <p id="jenis" class="bold">UI/UX</p>
+
+                <label for="harga">Harga:</label>
+                <p id="harga" class="bold">$50</p>
+
+                <label for="hashtag">Hashtag:</label>
+                <p id="hashtag" class="bold">#UIDesign #UXDesign #WebDesign</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Detail Karya</p>
+    </footer>
+</body>
+</html>

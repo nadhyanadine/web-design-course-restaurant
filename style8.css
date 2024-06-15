@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 400px; /* Increased logo width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px;
+}
+
+.hero {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.role-sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.role-section {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.role-section img {
+  width: 500px; /* Increased image width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 15px;
+}
+
+.image-button-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-button-container img {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.role-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.role-button:hover {
+  background-color: #ffc803a8;
+}
+
+/* New CSS for zoom effect */
+.zoom-on-hover {
+  transition: transform 
+}

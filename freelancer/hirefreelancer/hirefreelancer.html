@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freelancer Hiring Platform</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f3f4f6; /* Light gray background */
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333; /* Dark gray */
+      color: #fff; /* White */
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+      border-bottom: 4px solid #ffd400; /* Gold color */
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff; /* White */
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    h2 {
+      color: #333; /* Dark gray */
+      font-size: 1.5em;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .freelancer {
+      border: 1px solid #ccc; /* Dark gray */
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      transition: transform 0.3s ease;
+    }
+    .freelancer:hover {
+      transform: translateY(-5px);
+    }
+    .freelancer img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .freelancer-details {
+      flex: 1;
+    }
+    .freelancer-name {
+      font-size: 1.5em;
+      color: #333; /* Dark gray */
+      margin-bottom: 5px;
+    }
+    .freelancer-skills {
+      color: #777; /* Gray */
+      margin-bottom: 10px;
+    }
+    .hire-button {
+      background-color: #0407c3; /* Blue */
+      color: #fff; /* White */
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-right: 10px;
+      font-size: 1em;
+    }
+    .pay-button {
+      background-color: #ffd400; /* Orange */
+      color: #fff; /* White */
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-size: 1em;
+      text-decoration: none; /* Remove underline */
+      display: inline-block; /* Make link behave like a button */
+    }
+    .pay-button:hover {
+      background-color: #d35400; /* Darker orange */
+    }
+    .status {
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+    .status-unfinished {
+      background-color: #e74c3c; /* Red */
+      color: #fff; /* White */
+    }
+    .status-finished {
+      background-color: #27ae60; /* Green */
+      color: #fff; /* White */
+    }
+    .progress-bar {
+      background-color: #ddd; /* Light gray */
+      height: 15px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    
+    input[type="text"], textarea, select {
+      width: calc(100% - 20px);
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc; /* Gray */
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    textarea {
+      resize: vertical;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Freelancer Hiring Platform</h1>
+  </header>
+  <div class="container">
+    <h2>Discover Freelancers</h2>
+    <div class="freelancer">
+      <img src="../../images/profile.jpg" alt="Freelancer 1">
+      <div class="freelancer-details">
+        <div class="freelancer-name">John Doe</div>
+        <div class="freelancer-skills">Web Development, Graphic Design</div>
+        <div class="freelancer-info">
+          <h3>Job Description:</h3>
+          <textarea rows="5" placeholder="Detailed and lengthy job description including job criteria"></textarea>
+          <h3>Job Type:</h3>
+          <select>
+            <option value="Web Development">Web Development</option>
+            <option value="Graphic Design">Graphic Design</option>
+            <option value="Mobile App Development">Mobile App Development</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+          </select>
+          <h3>Job Criteria:</h3>
+          <ul>
+            <li>Planning:
+              - Define goals and target market.
+              - Research competitors and industry trends.
+              - Create website plan.</li>
+            <li>Design:
+              - Create visual design and layout.
+              - Ensure responsive across devices.</li>
+            <li>Development:
+              - Build site using HTML, CSS, JavaScript.
+              - Add features like payments, shopping cart, etc.</li>
+            <li>Testing:
+              - Test functionality, speed, and security.
+              - Ensure compatibility across devices and browsers.</li>
+            <li>Launch:
+              - Retest and launch site to hosting server.
+              - Configure DNS for online access.</li>
+          </ul>
+          <h3>Choose Deadline:</h3>
+          <select>
+            <option value="1 week">1 Week</option>
+            <option value="2 weeks">2 Weeks</option>
+            <option value="3 weeks">3 Weeks</option
+            <option value="4 weeks">4 Weeks</option>
+          </select>
+          <div class="status status-unfinished">Unfinished</div>
+          </div>
+          <a href="../../payment/payment.html" class="pay-button">Pay</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

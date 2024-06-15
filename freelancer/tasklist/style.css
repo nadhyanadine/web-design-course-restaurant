@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Set all text color to white */
+    background-color: #000;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  h1, h2, h3 {
+    text-align: center;
+}
+  
+  
+  header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(85, 82, 82);
+}
+
+nav li.active a {
+    font-weight: bold;
+    color: white;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #353333;
+    margin-bottom: 20px;
+}
+
+.progress {
+    background-color: #00ff08;
+    height: 10px;
+    transition: width 0.5s ease;
+}
+
+.completion-rate {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+  
+  .logo {
+    width: 100px; /* Atur lebar gambar logo */
+    height: auto; /* Pertahankan rasio aspek gambar logo */
+    margin-right: 20px; /* Tambahkan margin kanan pada gambar logo */
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  
+  .content {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff; /* Set text color to white for headings */
+  }
+  
+  .content p {
+    margin-bottom: 20px;
+    color: #fff; /* Set text color to white for paragraphs */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff; /* Set text color to white for labels */
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000; /* Set text color to black for form inputs */
+  }
+  
+  .form-group textarea {
+    height: 100px;
+    resize: none;
+  }
+  .content button {
+    background-color: #4CAF50; /* Green color */
+    color: #fff; /* White text color for better contrast */
+    border: none; /* Remove border for cleaner look */
+    padding: 10px 20px; /* Adjust padding for better fit */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  

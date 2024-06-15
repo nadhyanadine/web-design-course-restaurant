@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Warna latar belakang hitam */
+    color: #fff; /* Warna teks putih */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333; /* Warna latar belakang container menjadi abu-abu gelap untuk kontras */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #dba417; /* Warna judul menjadi #dba417 */
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #fff; /* Warna teks lainnya menjadi putih */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #fff; /* Warna teks label menjadi putih */
+}
+
+input[type="text"],
+input[type="url"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #000; /* Warna teks input menjadi hitam untuk kontras */
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #dba417;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #dba417;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

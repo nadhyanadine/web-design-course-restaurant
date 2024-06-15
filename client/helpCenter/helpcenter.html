@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevHive Help Center</title>
+    <link rel="stylesheet" href="helpcenter.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img src="../../images/logo.png" alt="DevHive Logo" class="logo">
+            <nav>
+                <a href="#">Projects With My Skills</a>
+                <a href="#">Lists</a>
+                <a href="#">TaskLists/My Projects</a>
+                <a href="#">Inbox</a>
+            </nav>
+        </div>
+        <div class="header-right">
+            <button class="sell-button">SELL</button>
+            <div class="user-info">
+                <span>@Alexander12</span>
+                <span>$0.00 USD</span>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="help-banner">
+            <h1>How may we help you?</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="I have a question about...">
+                <button class="get-help-button">Get Help</button>
+            </div>
+            <div class="suggested-articles">
+                <a href="#">Finding work</a>
+                <a href="#">How to sell</a>
+                <a href="#">Milestone Payments</a>
+            </div>
+        </div>
+        <div class="help-center">
+            <h2>Freelancer Help Center</h2>
+            <p>Learn everything you need to know about completing and optimizing your profile, bidding on projects, and accessing the best plans and tools to get your work done and get paid.</p>
+            <div class="tabs">
+                <button class="tab-button active" data-tab="general">General</button>
+                <button class="tab-button" data-tab="project">Project</button>
+                <button class="tab-button" data-tab="payments">Payments</button>
+            </div>
+            <div class="tab-content active" id="general">
+                <ul>
+                    <li><a href="#">Get started in freelancer</a></li>
+                    <li><a href="#">Tips for new freelancer</a></li>
+                    <li><a href="#">Successful freelancing on DevHive</a></li>
+                    <li><a href="#">Communicating or paying outside freelancer</a></li>
+                    <li><a href="#">Violations that lead to account closure</a></li>
+                    <li><a href="#">I forgot my password</a></li>
+                    <li><a href="#">Basic Troubleshooting</a></li>
+                    <li><a href="#">Common scam warning signs you should avoid</a></li>
+                </ul>
+            </div>
+            <div class="tab-content" id="project">
+                <ul>
+                    <li><a href="#">Finding Work</a></li>
+                    <li><a href="#">Project in violation of our Terms and Conditions</a></li>
+                    <li><a href="#">Bidding on project</a></li>
+                    <li><a href="#">Writing a proper bid proposal</a></li>
+                    <li><a href="#">Tips for winning project</a></li>
+                    <li><a href="#">How do I get paid?</a></li>
+                    <li><a href="#">Job completion Rate</a></li>
+                    <li><a href="#">I cannot bid on Project</a></li>
+                </ul>
+            </div>
+            <div class="tab-content" id="payments">
+                <ul>
+                    <li><a href="#">Milestone Payments</a></li>
+                    <li><a href="#">Dispute Resolution Service</a></li>
+                    <li><a href="#">There is an unfamiliar charge on my account</a></li>
+                    <li><a href="#">I am unable to add funds</a></li>
+                    <li><a href="#">Refunding my deposit</a></li>
+                    <li><a href="#">Verifying my payment method</a></li>
+                    <li><a href="#">Billing Agreements</a></li>
+                    <li><a href="#">Project Fees</a></li>
+                </ul>
+            </div>
+            <div class="contact-us">
+                <div class="contact-icon">
+                    <img src="contact_icon.png" alt="Contact Us">
+                </div>
+                <p>Still have questions? Our awesome Customer Support Team is ready to assist you.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.tab-button').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                const tabContents = document.querySelectorAll('.tab-content');
+                tabContents.forEach(content => content.classList.remove('active'));
+
+                const activeTab = button.getAttribute('data-tab');
+                document.getElementById(activeTab).classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

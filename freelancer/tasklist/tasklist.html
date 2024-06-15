@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Hive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png.png" alt="">
+          <nav>
+            <ul>
+              <li><a href="../projects/projects.html">Projects With My Skills</a></li>
+              <li><a href="../tasklist/tasklist.html">TaskLists</a></li>
+              <li><a href="../penjualan_karya/penjualan_karya.html" class="btn">SELL</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+    <main>
+            <section class="content">
+                <h2>TaskLists</h2>
+                <div class="tasklist-header">
+                    <div class="tasklist-name">@Alexander12tasklist</div>
+                    <button class="new-task-button">New Task</button>
+                </div>
+
+                <div class="tasklist-content">
+                    <div class="task-form">
+                        <form action="#">
+                            <label for="task-name">Task name (required)</label>
+                            <input type="text" id="task-name" name="task-name" required>
+
+                            <label for="assign-to">Assign To</label>
+                            <input type="text" id="assign-to" name="assign-to">
+
+                            <label for="due-date">Due date</label>
+                            <input type="date" id="due-date" name="due-date">
+
+                            <label for="task-file">Attach File (optional)</label>
+                            <input type="file" id="task-file" name="task-file">
+
+                            <button type="submit">Add Task</button>
+                        </form>
+                    </div>
+
+                    <div class="tasks">
+                        <div class="task">
+                            <div class="task-checkbox">
+                                <input type="checkbox" id="task1">
+                                <label for="task1">Stephanie294tasklist</label>
+                            </div>
+                            <div class="task-details">
+                                <p>Enter a task name</p>
+                                <span class="attached-file">No file attached</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

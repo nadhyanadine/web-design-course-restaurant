@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVHIVE - Graphic Design - Illustrator</title>
+    <link rel="stylesheet" href="style4.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png.png" alt="">
+            <nav>
+                <nav>
+                    <ul>
+                      <li><a href="../projects/projects.html">Projects With My Skills</a></li>
+                      <li><a href="../tasklist/tasklist.html">TaskLists</a></li>
+                      <li><a href="../penjualan_karya/penjualan_karya.html" class="btn">SELL</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="project-details">
+                <h1>Graphic Design - Illustrator</h1>
+                <p class="price">$68</p>
+
+                <div class="details">
+                    <h2>Project Details</h2>
+                    <p>I'm seeking a highly skilled freelancer to design and develop a creative, information WordPress website targeting professionals. The site should not only be functionally robust but also reflect a unique and creative aesthetic.</p>
+                    <p><strong>About the Client</strong></p>
+                    <ul>
+                        <li>Name: PT.Laskar Indonesia</li>
+                        <li>Location: Indonesia</li>
+                        <li>Member since: Jan 20, 2023</li>
+                        <li>Email: @Laskarindonesiajaya2020</li>
+                        <li>Phone: 0656-0606</li>
+                    </ul>
+                    <p><strong>Here's what I expect</strong></p>
+                    <ul>
+                        <li>Building an informational platform with an engaging user interface</li>
+                        <li>Website should be targeted towards professionals and must reflect the same</li>
+                        <li>Design and layout of the website should be creative yet sleek</li>
+                    </ul>
+                    <p><strong>The ideal candidate for this job will have:</strong></p>
+                    <ul>
+                        <li>Proficient WordPress and web designing skills</li>
+                        <li>A knack for creative and professional website design</li>
+                        <li>Excellent UX/UI skills</li>
+                        <li>A strong portfolio of previous creative, professional sites created.</li>
+                    </ul>
+                    <p><strong>Skill Required</strong></p>
+                    <ul>
+                        <li>Graphic Design</li>
+                        <li>Adobe Illustrator</li>
+                        <li>WordPress</li>
+                        <li>PHP</li>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+
+                <div class="bid-form">
+                    <h2>Place a bid on this project</h2>
+                    <p>You will be able to edit your bid until the project is awarded to someone.</p>
+                    <form id="bidForm">
+                        <label for="bidAmount">Bid Amount:</label>
+                        <input type="number" id="bidAmount" name="bidAmount" value="20.02">
+                        <label for="deliveryTime">This Project Will Be Delivered in:</label>
+                        <input type="number" id="deliveryTime" name="deliveryTime" value="7">
+                        <br>
+                        <br>
+                        <button type="submit">Place Bid</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 DEVHIVE</p>
+        </div>
+    </footer>
+
+    <script>
+        
+        document.getElementById('bidForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // menghentikan pengiriman form
+            Swal.fire({
+                icon: 'success',
+                title: 'Perfect!',
+                text: 'We will send your request to prospective clients. Contact them to discuss the job!',
+                confirmButtonText: 'OK'
+            }).then(function() {
+                window.history.back(); // kembali ke halaman sebelumnya
+            });
+            setTimeout(function() {
+        window.location.href = "../browse_job/browse_job.html";
+      }, 2000);
+            });
+            
+        
+    </script>
+</body>
+</html>
